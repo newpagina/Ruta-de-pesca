@@ -195,7 +195,6 @@
     
     .intro {
         margin-top: -90%;
-        margin-bottom: 600%;
     }
     
     .intro p::first-letter {
@@ -203,4 +202,29 @@
         font-weight: bold;
         line-height: .9em;
         margin: .1em;
+    }
+    
+    .imgbel {
+        width: 100%;
+    }
+    
+    .parra1 h4 {
+        text-decoration: underline;
+        text-align: center;
+        font-size: 1.5em;
+        text-shadow: 1px 2px 3px blue;
+    }
+    
+    .parra1 p::first-letter {
+        font-size: 3em;
+        font-weight: bold;
+        line-height: .9em;
+        margin: .1em;
+    }
+    
+    .lugares {
+        text-decoration: underline;
+        text-align: center;
+        font-size: 1.5em;
+        text-shadow: 1px 2px 3px blue;
     }
