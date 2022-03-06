@@ -274,4 +274,5 @@
         width: 20%;
         box-shadow: 0px 4px 10px rgb(240, 3, 3);
         margin-left: 5px;
+        cursor: pointer;
     }
