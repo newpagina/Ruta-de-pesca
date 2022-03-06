@@ -128,7 +128,6 @@
         align-items: center;
         padding: 10px;
         cursor: pointer;
-        display: none;
     }
     
     .menu_img {
@@ -138,7 +137,8 @@
     
     @media (max-width:800px) {
         .menu_hamburguer {
-            display: flex;
+            position: fixed;
+            z-index: 100;
         }
         .menu_item {
             --clip: 0;
