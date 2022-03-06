@@ -244,3 +244,25 @@
     .lugares p {
         margin-left: 5px;
     }
+    
+    .pesca h6 {
+        text-align: center;
+        font-size: 1.5em;
+        text-decoration: underline;
+        text-shadow: 1px 2px 3px blue;
+    }
+    
+    .pesca li {
+        margin-left: 5px;
+    }
+    
+    .pesca p {
+        font-size: 1em;
+        margin-left: 5px;
+        text-shadow: 1px 2px 3px blue;
+    }
+    
+    .pesca a {
+        color: rgb(247, 10, 10);
+        cursor: pointer;
+    }

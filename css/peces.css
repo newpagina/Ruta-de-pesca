@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.body {
+    background: rgb(202, 223, 216);
+}
+
+.imgcarpa {
+    width: 150px;
+    border: rgb(133, 147, 194) solid;
+}
+
+.bagre {
+    width: 150px;
+    border: rgb(133, 147, 194) solid;
+}
+
+.peje {
+    width: 150px;
+    height: 100px;
+    border: rgb(133, 147, 194) solid;
+}
+
+.tararira {
+    margin-left: 200px;
+    margin-top: -100px;
+}
+
+.tararira h5 {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.tararira p {
+    margin-left: 10px;
+    margin-top: -30px;
+}
+
+.tafo {
+    width: 150px;
+    height: 80px;
+    margin-top: 20px;
+    border: rgb(133, 147, 194) solid;
+}
+
+.tararira h5 {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.lisa {
+    width: 150px;
+    height: 80px;
+}
+
+.titulo {
+    margin-left: 230px;
+    margin-top: -150px;
+}
+
+.titulo h5 {
+    font-size: 30px;
+}
+
+.titulo p {
+    margin-left: -20px;
+    margin-top: -45px;
+}
+
+.descripcion {
+    color: rgb(0, 43, 235);
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.inicio {
+    text-shadow: rgb(3, 12, 130);
+    border-color: brown;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 330px;
+}
