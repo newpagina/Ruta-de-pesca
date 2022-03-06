@@ -1,9 +1,5 @@
 /* aca comienza el texto*/
 
-.imgbel {
-    width: 100%;
-}
-
 .parra1 h4 {
     text-decoration: underline;
     text-align: center;
@@ -62,23 +58,27 @@
     cursor: pointer;
 }
 
-.inicio {
-    font-size: 30px;
-    float: right;
-    margin-right: 10px;
-    margin-top: -40px;
-    background-origin: padding-box;
-    color: rgb(69, 24, 230);
+.gps {
+    width: 20%;
+    box-shadow: 0px 4px 10px rgb(240, 3, 3);
+    margin-left: 5px;
+    cursor: pointer;
 }
 
-.inicio a {
+.volver {
+    margin-left: 330px;
+    background-color: aqua;
+    border-image: 2px;
+}
+
+.volver a {
     text-decoration: none;
 }
 
-.gps {
-    width: 100px;
+.imgbel {
+    width: 100%;
 }
 
-.fondo {
+.fon {
     background-color: rgb(252, 166, 55);
 }
