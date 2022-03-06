@@ -195,6 +195,7 @@
     
     .intro {
         margin-top: -90%;
+        margin-left: 5px;
     }
     
     .intro p::first-letter {
@@ -215,6 +216,10 @@
         text-shadow: 1px 2px 3px blue;
     }
     
+    .parra1 p {
+        margin-left: 5px;
+    }
+    
     .parra1 p::first-letter {
         font-size: 3em;
         font-weight: bold;
@@ -222,9 +227,20 @@
         margin: .1em;
     }
     
-    .lugares {
+    .lugares h5 {
         text-decoration: underline;
         text-align: center;
         font-size: 1.5em;
         text-shadow: 1px 2px 3px blue;
+    }
+    
+    .lugares p:first-letter {
+        font-size: 3em;
+        font-weight: bold;
+        line-height: .9em;
+        margin: .1em;
+    }
+    
+    .lugares p {
+        margin-left: 5px;
     }
