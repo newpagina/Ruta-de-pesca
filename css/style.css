@@ -194,6 +194,8 @@
         }
         .menu_img {
             margin-left: 1000%;
+            border-style: outset;
+            border-color: aqua;
         }
     }
     /* aca comienza el texto*/
