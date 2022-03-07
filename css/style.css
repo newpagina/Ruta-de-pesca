@@ -130,7 +130,6 @@
     }
     
     .menu_img {
-        display: block;
         width: 36px;
     }
     
@@ -138,6 +137,7 @@
         .menu_hamburguer {
             position: fixed;
             z-index: 100;
+            width: 36px;
         }
         .menu_item {
             --clip: 0;
@@ -191,6 +191,9 @@
         }
         .gps {
             width: 3%;
+        }
+        .menu_img {
+            margin-left: 1000%;
         }
     }
     /* aca comienza el texto*/
