@@ -1,64 +1,64 @@
 /* aca comienza el texto*/
 
-.parra1 h4 {
+.parr1 h4 {
     text-decoration: underline;
     text-align: center;
     font-size: 3em;
     text-shadow: 1px 2px 3px blue;
 }
 
-.parra1 p {
+.parr1 p {
     margin-left: 5px;
 }
 
-.parra1 p::first-letter {
-    font-size: 3em;
-    font-weight: bold;
-    line-height: .9em;
-    margin: .1em;
-}
-
-.lugares h5 {
-    text-decoration: underline;
-    text-align: center;
-    font-size: 1.5em;
-    text-shadow: 1px 2px 3px blue;
-}
-
-.lugares p:first-letter {
+.parr1 p::first-letter {
     font-size: 3em;
     font-weight: bold;
     line-height: .9em;
     margin: .1em;
 }
 
-.lugares p {
+.lugare h5 {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 1.5em;
+    text-shadow: 1px 2px 3px blue;
+}
+
+.lugare p:first-letter {
+    font-size: 3em;
+    font-weight: bold;
+    line-height: .9em;
+    margin: .1em;
+}
+
+.lugare p {
     margin-left: 5px;
 }
 
-.pesca h6 {
+.pesc h6 {
     text-align: center;
     font-size: 1.5em;
     text-decoration: underline;
     text-shadow: 1px 2px 3px blue;
 }
 
-.pesca li {
+.pesc li {
     margin-left: 5px;
 }
 
-.pesca p {
+.pesc p {
     font-size: 1em;
     margin-left: 5px;
     text-shadow: 1px 2px 3px blue;
 }
 
-.pesca a {
+.pesc a {
     color: rgb(247, 10, 10);
     cursor: pointer;
 }
 
-.gps {
+.gp {
     width: 20%;
     box-shadow: 0px 4px 10px rgb(240, 3, 3);
     margin-left: 5px;
@@ -75,10 +75,10 @@
     text-decoration: none;
 }
 
-.imgbel {
+.imgbe {
     width: 100%;
 }
 
-.fon {
+.fo {
     background-color: rgb(252, 166, 55);
 }
