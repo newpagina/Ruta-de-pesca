@@ -111,7 +111,7 @@
             bottom: 0;
             width: max-content;
             transform: translateY(100%);
-            background-color: rgb(247, 208, 208);
+            background-color: rgba(211, 132, 13, 0.829);
         }
         
         .menu_link--inside {
@@ -143,6 +143,9 @@
                 --clip: 0;
                 overflow: hidden;
             }
+            .menu_item a {
+                color: chartreuse;
+            }
             .menu_item--active {
                 --transform: rotate(0);
                 --background: rgb(252, 166, 55)
@@ -157,7 +160,7 @@
                 top: 50px;
                 bottom: 0;
                 right: 0;
-                background-color: rgb(131, 207, 95);
+                background-color: rgba(15, 100, 133, 0.877);
                 overflow-y: auto;
                 display: grid;
                 grid-auto-rows: max-content;
@@ -183,7 +186,7 @@
             .menu_link--inside {
                 width: 90%;
                 margin-left: auto;
-                border-left: 1px solid rgb(247, 208, 208);
+                border-left: 1px solid rgb(64, 87, 80);
             }
             .menu_links--show {
                 transform: unset;
