@@ -29,9 +29,11 @@
     box-shadow: 10px 5px 5px rgb(173, 26, 26);
 }
 
-body {
-    background-color: rgb(252, 166, 55);
-    font-family: 'Poppins', sans-serif;
+#body {
+    background-image: url("../imagenes/mia.jpg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
 }
 
 .gifpez {
@@ -50,7 +52,7 @@ body {
 .menu {
     background-color: rgb(117, 39, 0);
     color: rgb(218, 213, 213);
-    height: 70px;
+    height: 45px;
 }
 
 .menu_container {
@@ -164,11 +166,12 @@ body {
 }
 
 #autor {
-    font-size: 0.5em;
+    font-size: 0.9em;
     margin-bottom: 3px;
     text-align: center;
-    background-color: rgba(127, 255, 212, 0.411);
-    color: rgb(0, 0, 0);
+    background-color: rgba(23, 186, 207, 0.863);
+    color: rgb(8, 8, 8);
+    width: 20%;
 }
 
 
@@ -177,7 +180,7 @@ body {
 .parra1 {
     font-size: 2px;
     font-size: 1.5em;
-    text-shadow: 2px 2px 2px blue;
+    text-shadow: 2px 2px 2px rgb(7, 218, 35);
     margin-left: 0;
     text-decoration: underline;
     text-align: center;
@@ -315,7 +318,7 @@ body {
     text-align: center;
     width: 100%;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 3px;
     font-size: 1em;
     background-color: rgba(250, 235, 215, 0.356);
@@ -325,13 +328,16 @@ body {
 
 #intro {
     text-align: center;
-    margin-top: -90%;
+    margin-top: -15%;
     font-size: 2px;
     font-size: 1.5em;
-    text-shadow: 2px 2px 2px blue;
+    text-shadow: 2px 2px 2px rgb(0, 162, 255);
     margin-left: 0;
     text-decoration: underline;
+    color: chartreuse;
 }
 
-
+#autor {
+    width: 60%;
+    margin-bottom: 500px;
 }
