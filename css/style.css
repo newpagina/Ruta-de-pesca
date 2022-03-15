@@ -213,7 +213,7 @@
         
         .intro p {
             width: 40%;
-            text-decoration: none;
+            text-decoration: underline;
             color: black;
             padding: 3px;
             font-size: 1em;
