@@ -176,7 +176,7 @@
 .parra1 {
     font-size: 2px;
     font-size: 1.5em;
-    text-shadow: 2px 2px 2px rgb(7, 218, 35);
+    text-shadow: 1px 1px 2px rgb(7, 218, 70);
     margin-left: 0;
     text-decoration: underline;
     text-align: center;
@@ -189,6 +189,7 @@
 .descripcion {
     margin-left: 10px;
     width: 97%;
+    color: rgb(1, 15, 15);
 }
 
 .lugares {
@@ -202,7 +203,7 @@
 
 .temporadas {
     margin-left: 10px;
-    color: rgb(243, 7, 7);
+    color: rgb(22, 240, 22);
 }
 
 .llegar {
@@ -216,6 +217,10 @@
     width: 60px;
     box-shadow: 2px 2px 2px blue;
     ;
+}
+
+#lu {
+    background: rgba(170, 91, 34, 0.774);
 }
 
 
