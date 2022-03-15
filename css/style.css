@@ -1,222 +1,312 @@
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        .contenedor {
-            width: 100%px;
-            max-width: 1000px;
-            max-width: 1000px;
-            margin: 0 auto;
-            overflow: hidden;
-        }
-        
-        .titulo {
-            text-align: center;
-            font-size: 2em;
-            box-shadow: 3px 5px 5px black;
-            text-shadow: 2px 2px 2px blue;
-        }
-        
-        .imgportada {
-            width: 60%;
-            height: 60%;
-            margin: auto;
-            display: block;
-            border: solid rgb(151, 156, 102);
-            box-shadow: 10px 5px 5px rgb(173, 26, 26);
-        }
-        
-        body {
-            background-color: rgb(252, 166, 55);
-            font-family: 'Poppins', sans-serif;
-        }
-        
-        .gifpez {
-            width: 30%;
-            margin-left: 80%;
-        }
-        
-        .boya1 {
-            margin-top: -25%;
-            margin-bottom: 100%;
-            padding-right: 15%;
-            width: 30%;
-            margin-left: 10%;
-        }
-        
-        .menu {
-            background-color: rgb(117, 39, 0);
-            color: rgb(218, 213, 213);
-            height: 70px;
-        }
-        
-        .menu_container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            width: -100%;
-            max-width: 1200px;
-            height: 100%;
-            margin: 0px;
-        }
-        
-        .menu_links {
-            height: 100%;
-            transition: transform .5s;
-            display: flex;
-        }
-        
-        .menu_link:hover {
-            color: red;
-        }
-        
-        .menu_item {
-            list-style: none;
-            position: relative;
-            height: 100%;
-            --clip: polygon(0 0, 100% 0, 100% 0, 0 0);
-            --trasform: rotate(-90deg)
-        }
-        
-        .menu_item:hover {
-            --clip: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-            --trasform: rotate(0)
-        }
-        
-        .menu_arrow {
-            transform: var(--trasform);
-            transition: transform 0.3s;
-            display: block;
-            margin-left: 3px;
-        }
-        
-        .menu_link {
-            color: rgb(3, 1, 1);
-            text-decoration: non;
-            padding: 0 30px;
-            display: flex;
-            height: 100%;
-            align-items: center;
-        }
-        
-        .menu_nesting {
-            clip-path: var(--clip);
-            list-style: none;
-            transition: clip-path 0.3s;
-            position: absolute;
-            right: 0;
-            bottom: 0;
-            width: max-content;
-            transform: translateY(100%);
-            background-color: rgba(211, 132, 13, 0.829);
-        }
-        
-        .menu_link--inside {
-            padding: 20px 10px 10px 20px;
-        }
-        
-        .menu_link--inside:hover {
-            background-color: rgba(64, 132, 209, 0.678);
-        }
-        
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .contenedor {
+        width: 100%px;
+        max-width: 1000px;
+        max-width: 1000px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    
+    .titulo {
+        text-align: center;
+        font-size: 2em;
+        box-shadow: 3px 5px 5px black;
+        text-shadow: 2px 2px 2px blue;
+    }
+    
+    .imgportada {
+        width: 60%;
+        height: 60%;
+        margin: auto;
+        display: block;
+        border: solid rgb(151, 156, 102);
+        box-shadow: 10px 5px 5px rgb(173, 26, 26);
+    }
+    
+    body {
+        background-color: rgb(252, 166, 55);
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .gifpez {
+        width: 30%;
+        margin-left: 80%;
+    }
+    
+    .boya1 {
+        margin-top: -25%;
+        margin-bottom: 100%;
+        padding-right: 15%;
+        width: 30%;
+        margin-left: 10%;
+    }
+    
+    .menu {
+        background-color: rgb(117, 39, 0);
+        color: rgb(218, 213, 213);
+        height: 70px;
+    }
+    
+    .menu_container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: -100%;
+        max-width: 1200px;
+        height: 100%;
+        margin: 0px;
+    }
+    
+    .menu_links {
+        height: 100%;
+        transition: transform .5s;
+        display: flex;
+    }
+    
+    .menu_link:hover {
+        color: red;
+    }
+    
+    .menu_item {
+        list-style: none;
+        position: relative;
+        height: 100%;
+        --clip: polygon(0 0, 100% 0, 100% 0, 0 0);
+        --trasform: rotate(-90deg)
+    }
+    
+    .menu_item:hover {
+        --clip: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        --trasform: rotate(0)
+    }
+    
+    .menu_arrow {
+        transform: var(--trasform);
+        transition: transform 0.3s;
+        display: block;
+        margin-left: 3px;
+    }
+    
+    .menu_link {
+        color: rgb(3, 1, 1);
+        text-decoration: non;
+        padding: 0 30px;
+        display: flex;
+        height: 100%;
+        align-items: center;
+    }
+    
+    .menu_nesting {
+        clip-path: var(--clip);
+        list-style: none;
+        transition: clip-path 0.3s;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: max-content;
+        transform: translateY(100%);
+        background-color: rgba(211, 132, 13, 0.829);
+    }
+    
+    .menu_link--inside {
+        padding: 20px 10px 10px 20px;
+    }
+    
+    .menu_link--inside:hover {
+        background-color: rgba(64, 132, 209, 0.678);
+    }
+    
+    .menu_hamburguer {
+        height: 0%;
+        display: flex;
+        align-items: center;
+        padding: 0px;
+    }
+    
+    .menu_img {
+        width: 36px;
+    }
+    /* aca comienza el texto*/
+    
+    #intro {
+        margin-top: -90%;
+        font-size: 30px;
+        font-size: 2em;
+        text-shadow: 2px 2px 2px blue;
+        margin-left: 0;
+    }
+    
+    .intro p {
+        margin-bottom: 10px;
+        text-align: center;
+        width: 50%;
+        text-decoration: none;
+        color: black;
+        padding: 3px;
+        font-size: 1em;
+        background-color: rgba(250, 235, 215, 0.356);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    #portada2 {
+        width: 50%;
+        float: right;
+        margin-top: -13%;
+        height: 120px;
+    }
+    
+    #autor {
+        font-size: 0.5em;
+        margin-bottom: 3px;
+        text-align: center;
+        background-color: rgba(127, 255, 212, 0.411);
+        color: rgb(0, 0, 0);
+    }
+    /* lugares*/
+    
+    .parra1 {
+        font-size: 2px;
+        font-size: 1.5em;
+        text-shadow: 2px 2px 2px blue;
+        margin-left: 0;
+        text-decoration: underline;
+        text-align: center;
+    }
+    
+    .img {
+        width: 100%;
+    }
+    
+    .descripcion {
+        margin-left: 10px;
+        width: 97%;
+    }
+    
+    .lugares {
+        font-size: 2px;
+        font-size: 1.5em;
+        text-shadow: 2px 2px 2px blue;
+        margin-left: 0;
+        text-decoration: underline;
+        text-align: center;
+    }
+    
+    .temporadas {
+        margin-left: 10px;
+        color: rgb(243, 7, 7);
+    }
+    
+    .llegar {
+        font-size: 2px;
+        font-size: 1em;
+        text-shadow: 2px 2px 2px rgba(15, 186, 253, 0.795);
+        margin-left: 0;
+    }
+    
+    .gp {
+        width: 60px;
+        box-shadow: 2px 2px 2px blue;
+        ;
+    }
+    /* aca termina*/
+    
+    @media (max-width: 800px) {
         .menu_hamburguer {
-            height: 0%;
-            display: flex;
-            align-items: center;
-            padding: 0px;
-        }
-        
-        .menu_img {
+            position: absolute;
+            z-index: 100;
             width: 36px;
         }
-        
-        @media (max-width:800px) {
-            .menu_hamburguer {
-                position: fixed;
-                z-index: 100;
-                width: 36px;
-            }
-            .menu_item {
-                --clip: 0;
-                overflow: hidden;
-            }
-            .menu_item a {
-                color: chartreuse;
-            }
-            .menu_item--active {
-                --transform: rotate(0);
-                --background: rgb(252, 166, 55)
-            }
-            .men_item--show {
-                background-color: var(--background);
-            }
-            .menu_links {
-                position: fixed;
-                max-width: auto;
-                width: 100%;
-                top: 50px;
-                bottom: 0;
-                right: 0;
-                background-color: rgba(15, 100, 133, 0.877);
-                overflow-y: auto;
-                display: grid;
-                grid-auto-rows: max-content;
-                transform: translate(100%);
-            }
-            .menu_link {
-                padding: 25px;
-                padding-left: 30px;
-                height: auto;
-            }
-            .menu_arrow {
-                margin-left: auto;
-                margin-left: 2px;
-            }
-            .menu_nesting {
-                display: grid;
-                position: unset;
-                width: 100%;
-                transform: translateY(0);
-                height: 0;
-                transition: height 0.4s;
-            }
-            .menu_link--inside {
-                width: 90%;
-                margin-left: auto;
-                border-left: 1px solid rgb(64, 87, 80);
-            }
-            .menu_links--show {
-                transform: unset;
-                width: 100%;
-            }
-            .gps {
-                width: 3%;
-            }
-            .menu_img {
-                margin-left: 1000%;
-                border-style: outset;
-                border-color: aqua;
-            }
+        .menu_item {
+            --clip: 0;
+            overflow: hidden;
         }
-        /* aca comienza el texto*/
-        
-        #intro {
-            margin-top: -90%;
-            font-size: 30px;
-            text-align: center;
-            font-size: 2em;
-            text-shadow: 2px 2px 2px blue;
+        .menu_item a {
+            color: chartreuse;
         }
-        
+        .menu_item--active {
+            --transform: rotate(0);
+            --background: rgb(252, 166, 55)
+        }
+        .men_item--show {
+            background-color: var(--background);
+        }
+        .menu_links {
+            position: fixed;
+            max-width: auto;
+            width: 100%;
+            top: 50px;
+            bottom: 0;
+            right: 0;
+            background-color: rgba(15, 100, 133, 0.877);
+            overflow-y: auto;
+            display: grid;
+            grid-auto-rows: max-content;
+            transform: translate(100%);
+        }
+        .menu_link {
+            padding: 25px;
+            padding-left: 30px;
+            height: auto;
+        }
+        .menu_arrow {
+            margin-left: auto;
+            margin-left: 2px;
+        }
+        .menu_nesting {
+            display: grid;
+            position: unset;
+            width: 100%;
+            transform: translateY(0);
+            height: 0;
+            transition: height 0.4s;
+        }
+        .menu_link--inside {
+            width: 90%;
+            margin-left: auto;
+            border-left: 1px solid rgb(64, 87, 80);
+        }
+        .menu_links--show {
+            transform: unset;
+            width: 100%;
+        }
+        .gps {
+            width: 3%;
+        }
+        .menu_img {
+            margin-left: 1000%;
+            border-style: outset;
+            border-color: aqua;
+        }
+        #portada2 {
+            width: 58%;
+            float: right;
+            margin-top: -87%;
+            height: 350px;
+        }
         .intro p {
-            width: 40%;
-            text-decoration: underline;
+            margin-bottom: 10px;
+            text-align: center;
+            width: 42%;
+            text-decoration: none;
             color: black;
             padding: 3px;
             font-size: 1em;
             background-color: rgba(250, 235, 215, 0.356);
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-transform: pre-line;
         }
+        #intro {
+            margin-top: -90%;
+            font-size: 2px;
+            font-size: 1.5em;
+            text-shadow: 2px 2px 2px blue;
+            margin-left: 0;
+            text-decoration: underline;
+        }
+    }
