@@ -203,94 +203,20 @@
         }
         /* aca comienza el texto*/
         
-        .intro {
+        #intro {
             margin-top: -90%;
-            margin-left: 5px;
-        }
-        
-        .intro p::first-letter {
-            font-size: 3em;
-            font-weight: bold;
-            line-height: .9em;
-            margin: .1em;
-        }
-        
-        .imgbel {
-            width: 100%;
-        }
-        
-        .parra1 h4 {
-            text-decoration: underline;
-            text-align: center;
-            font-size: 3em;
-            text-shadow: 1px 2px 3px blue;
-        }
-        
-        .parra1 p {
-            margin-left: 5px;
-        }
-        
-        .parra1 p::first-letter {
-            font-size: 3em;
-            font-weight: bold;
-            line-height: .9em;
-            margin: .1em;
-        }
-        
-        .lugares h5 {
-            text-decoration: underline;
-            text-align: center;
-            font-size: 1.5em;
-            text-shadow: 1px 2px 3px blue;
-        }
-        
-        .lugares p:first-letter {
-            font-size: 3em;
-            font-weight: bold;
-            line-height: .9em;
-            margin: .1em;
-        }
-        
-        .lugares p {
-            margin-left: 5px;
-        }
-        
-        .pesca h6 {
-            text-align: center;
-            font-size: 1.5em;
-            text-decoration: underline;
-            text-shadow: 1px 2px 3px blue;
-        }
-        
-        .pesca li {
-            margin-left: 5px;
-        }
-        
-        .pesca p {
-            font-size: 1em;
-            margin-left: 5px;
-            text-shadow: 1px 2px 3px blue;
-        }
-        
-        .pesca a {
-            color: rgb(247, 10, 10);
-            cursor: pointer;
-        }
-        
-        .gps {
-            width: 20%;
-            box-shadow: 0px 4px 10px rgb(240, 3, 3);
-            margin-left: 5px;
-            cursor: pointer;
-        }
-        
-        .volver {
-            margin-left: 290px;
             font-size: 30px;
-            margin-bottom: 10px;
+            text-align: center;
+            font-size: 2em;
+            text-shadow: 2px 2px 2px blue;
         }
         
-        .volver a {
+        .intro p {
+            width: 40%;
             text-decoration: none;
-            box-shadow: 1px 2px 3px blue;
+            color: black;
+            padding: 3px;
+            font-size: 1em;
+            background-color: rgba(250, 235, 215, 0.356);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         }
